@@ -1,0 +1,19 @@
+{
+    "expo": {
+        "scheme": "acme",
+        "web": {
+            "bundler": "metro"
+        },
+        "name": "q-app",
+        "slug": "q-app",
+        "plugins": [
+            "expo-apple-authentication",
+            [
+                "expo-camera",
+                {
+                    "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera."
+                }
+            ]
+        ]
+    }
+}
